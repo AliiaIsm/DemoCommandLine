@@ -1,0 +1,91 @@
+    1  git enid
+    2  git remote add origin https://github.com/AliiaIsm/MyFirstRepository.git
+   18  git clone git@github.com:AliiaIsm/MyFirstRepository.git
+   21  git status
+   22  git status
+   23  git add style.css
+   24  git status
+   25  git commit -m "изменили фон на белый"
+   26  git status
+   27  git push
+   28  git checkout -b bg-green
+   29  git branch
+   30  git status
+   31  git add .
+   32  git status
+   33  git commit -m "Изменили фон на зеленый"
+   34  git status
+   35  git push
+   36  git push --set-upstream origin bg-green
+   37  git checkout master
+   38  git branch
+   39  git pull
+   42  git init
+   44  git init . 
+   45  git init .
+   46  git add Merge.txt
+   47  git add merge.txt
+   49  git add merge.txt
+   50  git commit
+   54  git init
+   56  git add merge.txt
+   57  git commit -am"we are commiting the inital content"
+   58  git checkout -b NewBtoMergeLater
+   59  git status
+   61  git commit -am"edited the content of merge.txt to cause a conflict"
+   62  git checkout master
+   64  git status
+   65  git commit -am"appended content to merge.txt"
+   66  git merge NewBtoMergeLater
+   67  git push
+   68  git remote add MT https://github.com/AliiaIsm/MerrgeConflict
+   69  git push MT
+   70  git push --set-upstream MT master
+   71  history | grep git >> git_history.txt
+   84  git log
+   86  git commit
+   88  git log
+   91  history | grep git >> history.txt
+   94  git merge | grep >> new.txt
+   95  git commit
+  100  history | grep git >> history.txt
+  108  history | grep git >> history.txt
+  115  history | grep git >> history.txt
+  122  history | grep git >> history.txt
+  124  cat | grep git >> logg.txt
+  132  history | grep git >> history.txt
+  139  curl -u 'AliiaIsm' https://github.com/AliiaIsm/repos -d'{"name":"DemoCommandLine"
+  140  curl -u 'AliiaIsm' https://github.com/AliiaIsm/repos -d'{"name":"DemoCommandLine"
+  145  history | grep git >> history.txt
+  148  git remote add origin https://github.com/AliiaIsm/DemoCommandLine
+  149  git push -u origin master
+  150  git push
+  151  git push --set-upstream origin master
+  152  git remote add origin https://github.com/AliiaIsm/DemoCommandLine.git
+  153  git init
+  154  git add
+  155  git add .
+  157  git remote add origin git@github.com:AliiaIsm/DemoCommandLine.git
+  158  git push -u origin master
+  159  git push
+  160  git push -u origin master
+  161  git push -u origin master
+  162  git remote add origin https://github.com/AliiaIsm/DemoCommandLine.git
+  163  git push -u origin master
+  164  git pull
+  165  git remote add origin https://github.com/AliiaIsm/DemoCommandLine.git
+  166  git remote add origin https://github.com/AliiaIsm/DemoCommandLine.git
+  167  git pull
+  168  git push -u origin master
+  169  git forcr -u origin master
+  170  git forcr -u origin master
+  171  git force -u origin master
+  172  git commit
+  175  git init
+  176  git add README.md
+  181  history | grep git >> history.txt
+  182  git status
+  183  git remote add origin 
+  184  git remote add origin https://github.com/AliiaIsm/DemoCommandLine.git
+  190  git init
+  192  history | grep git >> history.txt

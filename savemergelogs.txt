@@ -1,0 +1,7 @@
+   47  git add merge.txt
+   49  git add merge.txt
+   56  git add merge.txt
+   61  git commit -am"edited the content of merge.txt to cause a conflict"
+   65  git commit -am"appended content to merge.txt"
+   66  git merge NewBtoMergeLater
+   94  git merge | grep >> new.txt
