@@ -1,0 +1,54 @@
+DiA@DiA-Comp MINGW64 ~
+$ cd c:/Users/DiA/Desktop
+
+DiA@DiA-Comp MINGW64 ~/Desktop (master)
+$ mkdir LOGS
+
+DiA@DiA-Comp MINGW64 ~/Desktop (master)
+$ cd c:/Users/DiA/Desktop/LOGS
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ history
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ history | grep git >> history.txt
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ cat history.txt | grep merge
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ cat history.txt | grep merge >> new.txt
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   history.txt
+        new file:   savemergelogs.txt
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ git commit
+[master (root-commit) 1c223cd] text commita kek
+ 2 files changed, 98 insertions(+)
+ create mode 100644 history.txt
+ create mode 100644 savemergelogs.txt
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ git remote add DemoCommandLine https://github.com/AliiaIsm/DemoCommandLine.git
+
+DiA@DiA-Comp MINGW64 ~/Desktop/LOGS (master)
+$ git push -u DemoCommandLine master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.09 KiB | 1.09 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/AliiaIsm/DemoCommandLine.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'DemoCommandLine'.
